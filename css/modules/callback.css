@@ -1,0 +1,103 @@
+.callback{
+	font-family: 'Roboto', sans-serif;
+	z-index: 2;
+	padding: 100px 0 0 0;
+	&__title{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		color: #1f2021;
+		text-transform: uppercase;
+		font-weight: 400;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	&__form{
+		max-width: 790px;
+		margin: auto;
+	}
+	&__center{
+		text-align: center;
+	}
+	&__input{
+		width: 380px;
+		height: 60px;
+		background-color: #fff;
+		border: 1px solid #d5dae0;
+		border-radius: 4px;
+		padding-left: 15px;
+		color: #7f929e;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 60px;
+		box-sizing: border-box;
+		outline: none;
+	}
+	&__left{
+		float: left;
+	}
+	&__right{
+		float: right;
+	}
+	&__textarea{
+		resize: none;
+		background-color: #fff;
+		border: 1px solid #d5dae0;
+		border-radius: 4px;
+		padding: 15px;
+		height: 188px;
+		width: 100%;
+		color: #7f929e;
+		margin-top: 30px;
+		box-sizing: border-box;
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+		outline: none;
+	}
+	&__btn{
+		width: 170px;
+		height: 60px;
+		border: 1px solid #d5dae0;
+		color: #1f2021;
+		background-color: none;
+		display: inline-block;
+		line-height: 60px;
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+		transition: all .3s ease-in-out;
+		margin: 40px auto;
+		text-decoration: none;
+		&:hover, &:focus, &:active{
+			background-color: rgba(0,0,0,0.7);
+			color: #fff;
+		}
+	}
+	&__message{
+		font-size: 16px;
+	}
+	::-webkit-input-placeholder  { 
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px; }
+	:-moz-placeholder { 
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px; }
+	:-ms-input-placeholder { 
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px; 
+	}
+	&__map{
+		z-index: 1;
+	}
+}
+
+body :invalid:focus{
+	border: red 1px solid;
+	outline: 0;
+}
+body :valid:focus{
+	border: #2e8b57 1px solid;
+	outline:none !important;
+}
+body input:invalid {
+box-shadow: none;
+}

@@ -1,5 +1,14 @@
 @import 'normalize.css';
-@import 'modules/font.css';
-@import 'modules/landing.css';
-@import 'modules/bootstrap_min_grid.css';
+@import 'modules/owl.transitions.css';
+@import 'modules/owl.carousel.css';
+@import 'modules/owl.theme.css';
+@import 'modules/container.css';
+@import 'modules/header.css';
+@import 'modules/services.css';
+@import 'modules/portfolio.css';
+@import 'modules/team.css';
+@import 'modules/callback.css';
 @import 'modules/media.css';
+@import 'modules/bootstrap_min_grid.css';
+@import 'modules/animate.css';
+

@@ -1,53 +1,66 @@
-@media only screen and (max-width : 360px){
-	.landing{
-		padding: 20px 0;
-		height: 100vh;
-		&__title{
-			font-size: 30px;
-			padding-top: 20px;
+@media only screen and (max-width : 1200px){
+	.owl-theme .owl-controls .owl-buttons .owl-prev,
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		display: none;
+	}
+/*	.header{
+		&__list{
+			display: none;
 		}
-		&__text, &__question{
-			font-size: 18px;
+	}*/
+}
+@media only screen and (max-width : 992px){
+	.header{
+		&__search{
+			display: none;
 		}
-		&__paragraph{
-			font-size: 12px;
+		&__main{
+			height: auto;
 		}
-		&__button{
-			font-size: 16px;
+		&__item,&__list{
+			display: block;
 		}
-		&__callback{
-			margin-top: 40px;
+		&__logo{
+			float: none;
+			display: block;
 		}
-		&__tell{
-			margin-top: 60px;
+		&__kasper{
+			display: flex;
+			justify-content: center;
 		}
-		&__social{
-			padding-bottom: 52px;
-			margin: 0;
+		&__menu{
+			display: block;
+			margin: auto;
+		}
+		&__list{
+			display: none;
+			padding: 0;
 		}
 	}
-}
-@media only screen and (max-width : 320px){
-	.landing{
-		padding: 20px 0;
-		margin-bottom: 10px;
-		&__callback{
-			margin: 10px auto;
+	.callback{
+		&__left, &__right{
+			float: none;
 		}
-		&__item{
-			margin-top: 10px;
+		&__input{
+			width: 100%;
+			&:first-child{
+				margin-bottom: 15px;
+			}
 		}
-		&__input, &__button{
-			margin-top: 10px;
+		&__textarea{
+			margin-top: 15px;
 		}
-		&__tell{
-			margin: 15px 0;
+		&__center{
+			margin-right: 10px;
+			margin-left: 10px;
 		}
-		&__social{
-			margin: 0;
+	}
+	.portfolio{
+		&__hover{
+			display: none;
 		}
-		&__title{
-			padding-top: 20px;
+		&__po1, &__po2, &__po3, &__po4, &__po5, &__po6{
+			background-position: 50%;
 		}
 	}
 }

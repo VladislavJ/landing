@@ -1,38 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>leanding</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initail-scale=1.0">
+	<title>Kasper</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,300,700,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bundle.css">
 </head>
 <body>
-	<section class="landing">
-		<div class="container landing__bg">
-			<div class="landing__message">
-				<h1 class="landing__title">Landing Page по вашей цене</h1>
-				<p class="landing__text">За 3 дня создадим для вас <br> Landing Page по вашей цене</p>
-			</div>
-			<div class="landing__callback">
-				<p class="landing__question">Как это работает?</p>
-				<div class="landing__item">
-					<p class="landing__paragraph">1) Заполните форму ниже и введите сумму, за которую Вы хотите получить сайт</p>
-					<p class="landing__paragraph">2) Предоставим предложение в данную сумму с примерами работ </p>
+	<header id="header" class="header">
+		<ul class="owl-carousel owl-theme owl-loaded">
+			<li class="header__gallery header__photo2"></li>
+			<li class="header__gallery header__photo1"></li>
+			<li class="header__gallery header__photo3"></li>
+		</ul>
+		<div class="header__content">
+			<div class="container-fluid">
+				<div class="col-md-12">
+				<h3 class="header__title">Simple, Beautiful <span class="header__titlespan">and Amazing</span></h3>
+				<p class="header__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+				<a href="#" class="header__download">Download</a>
+				<a href="#" class="header__more">Learn more
+				</a>
+				<div class="header__stack">
+					<p class="header__text">Aavailable on:</p>
+					<a class="header__icon" href="#">
+						<img src="img/apple.png" alt="apple_icon">
+					</a>
+					<a class="header__icon" href="#">
+						<img src="img/android.png" alt="android_icon">
+					</a>
 				</div>
-				<div class="landing__form">
-					<input class="landing__input" type="text" placeholder="Введите сумму">
-					<input class="landing__input" type="text" placeholder="Введите номер телефона">
-					<input class="landing__button" type="submit" value="Получите предложение">
+			</div>
+		</div>
+		<div class="header__position">
+			<div class="header__main">
+				<div class="container header__flex">
+					<div class="col-md-4">
+						<a class="header__kasper" href="#">
+							<img class="header__logo" src="img/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-md-8">
+						<img id="onclick" class="header__menu" src="img/menu.svg" alt="menu">
+						<ul id="menu" class="header__list">
+							<li class="header__item">
+								<a class="header__link" href="#header">Home</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#services">Features</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#portfolio">Gallery</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#team">Video</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#callback">Prices</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#header">Testimonials</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#header">Download</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#header">Contact</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-				<p class="landing__tell">Поделитесь с друзьями</p>
-			<div class="landing__social">
-				<a class="landing__vk" href="http://clients.play-big.ru/lp/" title="vk"></a>
-				<a class="landing__facebook" href="http://clients.play-big.ru/lp/" title="facebook"></a>
-				<a class="landing__plus" href="http://pluso.ru/"></a>
-				<span class="landing__visit">215</span>
+		</div>
+	</header>
+
+	<section id="services" class="services">
+		<div class="container">
+			<h3 class="services__title">Summarise the features</h3>
+			<p class="services__paragraph">summarise what your product is all about</p>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="services__circle">
+						<img src="img/icon1.png" alt="icon">
+					</div>
+					<h4 class="services__item">Attractive Layout</h4>
+					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="services__circle">
+						<img src="img/icon2.png" alt="icon">
+					</div>
+					<h4 class="services__item">Fresh Design</h4>
+					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="services__circle">
+						<img src="img/icon3.png" alt="icon">
+					</div>
+					<h4 class="services__item">multipurpose</h4>
+					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="services__circle">
+						<img src="img/icon4.png" alt="icon">
+					</div>
+					<h4 class="services__item">Easy to customize</h4>
+					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- 
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po1">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po2">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po3">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po4">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po5">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
+				<div class="col-md-4 col-sm-6 xs-12 portfolio__padding">
+					<li class="portfolio__item portfolio__po6">
+						<div class="portfolio__hover">
+							<a class="portfolio__wrapper" href="http://vk.com/id234563665" target="_blank">
+								<img class="portfolio__icon" src="img/tool.svg" alt="">
+							</a>
+						</div>
+					</li>
+				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="team" class="team">
+		<div class="container">
+			<h2 class="team__title">Наша команда</h2>
+			<div class="row">
+				<div class="col-xs-12 col-md-3 col-sm-6">
+					<div class="team__block wow zoomIn" data-wow-delay="0.5s">
+						<img class="team__photo" src="img/team3.png" alt="">
+						<h3 class="team__name">Жураковский Владислав</h3>
+						<p class="team__prof">Руководитель</p>
+						<p class="team__description">Делает вид будто что-то знает, забавный парень.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3 col-sm-6">
+					<div class="team__block wow zoomIn" data-wow-delay="1.0s">
+						<img class="team__photo" src="img/team2.png" alt="">
+						<h3 class="team__name">Докиенко Екатерина</h3>
+						<p class="team__prof">Программист</p>
+						<p class="team__description">Дружит с консолью, когда смеется слышно в соседнем офисе.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3 col-sm-6">
+					<div class="team__block wow zoomIn" data-wow-delay="1.5s">
+						<img class="team__photo " src="img/team1.png" alt="">
+						<h3 class="team__name">Андрущенко Владислав</h3>
+						<p class="team__prof">Веб-дизайнер</p>
+						<p class="team__description">Утверждает что рисует не хуже чем его бабушка.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3 col-sm-6 ">
+					<div class="team__block wow zoomIn" data-wow-delay="2.0s">
+						<img class="team__photo" src="img/team4.png" alt="">
+						<h3 class="team__name">Бондаренко Анна</h3>
+						<p class="team__prof">PR-директор</p>
+						<p class="team__description">Умеет мотивировать команду, вкусно готовит.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+ -->
+	<footer id="callback" class="callback">
+		<div class="container">
+		<div class="callback__list"></div>
+			<div class="callback__item">
+				<input type="radio" class="radio" name="radio" id="radio1" />
+				<label for="radio1">А я переключаю радиокнопку</label>
+			</div>
+			<div class="callback__item">
+				<input type="radio" class="radio" name="radio" id="radio2" />
+				<label for="radio2">А я переключаю радиокнопку</label>
+			</div>
+			<div class="callback__item">
+				<input type="radio" class="radio" name="radio" id="radio3" />
+				<label for="radio3">А я переключаю радиокнопку</label>
+			</div>
+			<div class="callback__item">
+				<input type="radio" class="radio" name="radio" id="radio4" />
+				<label for="radio4">А я переключаю радиокнопку</label>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+<!-- Configuring Carousel http://owlgraphic.com/owlcarousel/ -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

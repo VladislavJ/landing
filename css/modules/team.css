@@ -1,0 +1,40 @@
+.team{
+	border: 1px solid #e9edf1;
+	padding: 100px 0;
+	font-family: 'Roboto', sans-serif;
+	&__title{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		color: #1f2021;
+		text-transform: uppercase;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 100px;
+	}
+	&__block{
+		text-align: center;
+	}
+	&__name{
+		color: #333;
+		font-weight: 500;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+	&__prof{
+		color: #333;
+		font-weight: 500;
+		font-size: 16px;
+	}
+	&__description{
+		color: #333;
+		font-weight: 400;
+		font-size: 15px;
+	}
+	&__photo{
+		opacity: 0.8;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
