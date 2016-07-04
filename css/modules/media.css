@@ -41,16 +41,15 @@
 		}
 	}
 	.header{
-		&__content{
-			left: 0;
-			top: 15%;
-		}
 		&__title{
 			font-size: 36px;
 		}
 		&__lorem{
 			font-size: 16px;
 			margin-bottom: 40px;
+		}
+		&__flex .open{
+			padding-top: 60px;
 		}
 	}
 	.services{
@@ -79,7 +78,7 @@
 	}
 }
 
-@media only screen and (max-width : 980px){
+@media only screen and (max-width : 991px){
 	.header{
 		&__list{
 			display: none;
@@ -119,7 +118,8 @@
 			justify-content: center;
 		}
 		&__item{
-			margin-bottom: 35px;
+			margin-bottom: 30px;
+			margin-left: 40%;
 		}
 		&__link{
 			&:hover, &:focus, &:active{
@@ -129,6 +129,14 @@
 				border-bottom: 2px solid #fff;
 				border-top: 0;
 			}
+		}
+		&__close{
+			display: block;
+		}
+		&__content{
+			left: 50%;
+			top: 15%;
+			margin-left: -150px;
 		}
 	}
 }

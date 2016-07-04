@@ -56,5 +56,9 @@ return false;
 
 //Меню
 $('#onclick').on('click',function(){
-    $('.header__list').toggleClass('open');
+    $('.header__list').addClass('open');
+});
+
+$('#exit').on('click',function(){
+    $('.header__list').removeClass('open');
 });

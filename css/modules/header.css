@@ -16,7 +16,7 @@
 	}
 	&__item{
 		display: inline-block;
-		margin-left: 50%;
+		margin-left: 35px;
 		list-style-type: none;
 		width: 100%;
 	}
@@ -186,6 +186,16 @@
 		color: #fff;
 		margin-right: 5px;
 	}
+	&__close{
+		display: none;
+		width: 25px;
+		height: 25px;
+		background-size: 25px;
+		position: absolute;
+		top: 5%;
+		right: 20%;
+		cursor: pointer;
+	}
 }
 .header__flex .open{
 		display: flex;
@@ -236,6 +246,7 @@
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 45%;
+	z-index: 11;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev:hover{
 	background-image: svg-load( ../../img/left.svg, fill=#000);

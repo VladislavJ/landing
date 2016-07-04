@@ -719,7 +719,7 @@ th {
 }
 .header__item{
   display: inline-block;
-  margin-left: 50%;
+  margin-left: 35px;
   list-style-type: none;
   width: 100%;
 }
@@ -902,6 +902,16 @@ th {
   color: #fff;
   margin-right: 5px;
 }
+.header__close{
+  display: none;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  cursor: pointer;
+}
 .header__flex .open{
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -960,6 +970,7 @@ th {
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 45%;
+	z-index: 11;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev:hover{
 	background-image: url( "data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3C!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='358.502px' height='512px' viewBox='0 0 358.502 512' enable-background='new 0 0 358.502 512' xml:space='preserve' fill='%23000'%3E %3Cg%3E %3Cg%3E %3Cpath d='M353.901,9.35C346.174-1.082,331.88-3.014,321.45,4.714L9.272,237.3C3.477,241.55,0,248.505,0,255.846 c0,7.339,3.478,14.294,9.272,18.544l312.174,232.974c4.253,3.092,8.889,4.637,13.91,4.637c6.953,0,13.908-3.092,18.545-9.27 c7.729-10.434,5.408-24.729-4.637-32.453L61.814,255.847L349.265,41.419C359.312,34.078,361.629,19.396,353.901,9.35z'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
@@ -1295,16 +1306,15 @@ ul, li{
 	.list__list{
     margin-top: 80px;
   }
-	.header__content{
-    left: 0;
-    top: 15%;
-  }
 	.header__title{
     font-size: 36px;
   }
 	.header__lorem{
     font-size: 16px;
     margin-bottom: 40px;
+  }
+	.header__flex .open{
+    padding-top: 60px;
   }
 	.services__title{
     font-size: 26px;
@@ -1328,7 +1338,7 @@ ul, li{
   }
 }
 
-@media only screen and (max-width : 980px){
+@media only screen and (max-width : 991px){
 	.header__list{
     display: none;
   }
@@ -1373,7 +1383,8 @@ ul, li{
             justify-content: center;
   }
 	.header__item{
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+    margin-left: 40%;
   }
 	.header__link:hover, .header__link:focus, .header__link:active{
     color: #fff;
@@ -1381,6 +1392,14 @@ ul, li{
     padding-top: 0;
     border-bottom: 2px solid #fff;
     border-top: 0;
+  }
+	.header__close{
+    display: block;
+  }
+	.header__content{
+    left: 50%;
+    top: 15%;
+    margin-left: -150px;
   }
 }
 /*!
