@@ -16,8 +16,9 @@
 	}
 	&__item{
 		display: inline-block;
-		margin-left: 35px;
+		margin-left: 50%;
 		list-style-type: none;
+		width: 100%;
 	}
 	&__link{
 		font-size: 13px;
@@ -188,17 +189,18 @@
 }
 .header__flex .open{
 		display: flex;
-		-webkit-transition: 0.5s;
 		transition: 0.5s;
 		width: 100vw;
 		height: 800px;
-		background: rgba(80,202,251,0.8);
+		background: rgba(80,202,251,0.9);
 		position: fixed;
 		top: 0;
 		left: 0;
 		padding: 0;
-		justify-content: center;
+		justify-content: flex-start;
 		flex-wrap: wrap;
+		flex-direction: column;
+		padding-top: 100px;
 }
 .owl-carousel.owl-loaded{
 	list-style-type: none;
