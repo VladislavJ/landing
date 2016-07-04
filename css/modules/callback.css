@@ -6,12 +6,11 @@
 	&__item{
 		margin: 0 0 45px 0;
 		display: flex;
-		justify-content: flex-start;
 		align-items: center;
 	}
 	&__photo{
-		width: 125px;
-		height: 125px;
+		min-width: 125px;
+		min-height: 125px;
 		border-radius: 50%;
 		background: url(../img/circle.jpg) -40px 0;
 		margin-left: 80px;
@@ -40,6 +39,9 @@
 		margin-bottom: 0;
 		margin-top: 70px;
 	}
+	&__content{
+		position: relative;
+	}
 }
 
 	.radio{
@@ -48,19 +50,18 @@
 	.radio + label::after{
 		content: '';
 		position: absolute;
-		top: 5px;
+		top: -7px;
 		left: 8px;
 		width: 14px;
 		height: 14px;
 		border-radius: 50%;
 		border: 3px solid #fff;
-		
 		transition: all .2s;
 	}
 	.radio + label::before{
 		content: '';
 		position: absolute;
-		top: -3px;
+		top: -15px;
 		left: 0;
 		width: 30px;
 		height: 30px;

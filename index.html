@@ -20,9 +20,11 @@
 				<div class="col-md-12">
 				<h3 class="header__title">Simple, Beautiful <span class="header__titlespan">and Amazing</span></h3>
 				<p class="header__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
-				<a href="#" class="header__download">Download</a>
-				<a href="#" class="header__more">Learn more
-				</a>
+				<div class="header__wrap">
+					<a href="#" class="header__download">Download</a>
+					<a href="#" class="header__more">Learn more
+					</a>
+				</div>
 				<div class="header__stack">
 					<p class="header__text">Aavailable on:</p>
 					<a class="header__icon" href="#">
@@ -37,78 +39,82 @@
 		<div class="header__position">
 			<div class="header__main">
 				<div class="container header__flex">
-					<div class="col-md-4">
-						<a class="header__kasper" href="#">
-							<img class="header__logo" src="img/logo.png" alt="logo">
-						</a>
-					</div>
-					<div class="col-md-8">
-						<img id="onclick" class="header__menu" src="img/menu.svg" alt="menu">
-						<ul id="menu" class="header__list">
-							<li class="header__item">
-								<a class="header__link" href="#header">Home</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#services">Features</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#portfolio">Gallery</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#team">Video</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#callback">Prices</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#header">Testimonials</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#header">Download</a>
-							</li>
-							<li class="header__item">
-								<a class="header__link" href="#header">Contact</a>
-							</li>
-						</ul>
+					<div class="row">
+						<div class="col-md-4 col-xs-6">
+							<a class="header__kasper" href="#">
+								<img class="header__logo" src="img/logo.png" alt="logo">
+							</a>
+						</div>
+						<div class="col-md-8 col-xs-6">
+							<div class="header__burger">
+								<img id="onclick" class="header__menu" src="img/menu.png" alt="menu">
+							</div>
+							<ul id="menu" class="header__list">
+								<li class="header__item">
+									<a class="header__link" href="#header">Home</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#services">Features</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#portfolio">Gallery</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#team">Video</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#callback">Prices</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#header">Testimonials</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#header">Download</a>
+								</li>
+								<li class="header__item">
+									<a class="header__link" href="#header">Contact</a>
+								</li>
+							</ul>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
-	<section class="services">
-		<div class="container">
-			<h3 class="services__title">Summarise the features</h3>
-			<p class="services__paragraph">summarise what your product is all about</p>
-			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="services__circle">
-						<img src="img/icon1.png" alt="icon">
+		<section class="services">
+			<div class="container">
+				<h3 class="services__title">Summarise the features</h3>
+				<p class="services__paragraph">summarise what your product is all about</p>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 services__margin">
+						<div class="services__circle">
+							<img src="img/icon1.png" alt="icon">
+						</div>
+						<h4 class="services__item">Attractive Layout</h4>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 					</div>
-					<h4 class="services__item">Attractive Layout</h4>
-					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="services__circle">
-						<img src="img/icon2.png" alt="icon">
+					<div class="col-md-3 col-sm-6 col-xs-12 services__margin">
+						<div class="services__circle">
+							<img src="img/icon2.png" alt="icon">
+						</div>
+						<h4 class="services__item">Fresh Design</h4>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 					</div>
-					<h4 class="services__item">Fresh Design</h4>
-					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="services__circle">
-						<img src="img/icon3.png" alt="icon">
+					<div class="col-md-3 col-sm-6 col-xs-12 services__margin">
+						<div class="services__circle">
+							<img src="img/icon3.png" alt="icon">
+						</div>
+						<h4 class="services__item">multipurpose</h4>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 					</div>
-					<h4 class="services__item">multipurpose</h4>
-					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="services__circle">
-						<img src="img/icon4.png" alt="icon">
+					<div class="col-md-3 col-sm-6 col-xs-12 services__margin">
+						<div class="services__circle">
+							<img src="img/icon4.png" alt="icon">
+						</div>
+						<h4 class="services__item">Easy to customize</h4>
+						<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 					</div>
-					<h4 class="services__item">Easy to customize</h4>
-					<p class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -121,10 +127,10 @@
 					<input type="radio" class="radio" name="radio" id="radio1" />
 					<label for="radio1"></label>
 					<div class="list__photo"></div>
-
+					<div class="list__content">
 						<h3 class="list__title">Eva Mendes</h3>
 						<p class="list__lorem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-
+					</div>
 				</div>
 				<div class="list__item">
 					<input type="radio" class="radio" name="radio" id="radio2" />

@@ -1,5 +1,5 @@
 .services{
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	&__title{
 		font-family: 'Lato', sans-serif;
 		font-size: 36px;
@@ -45,5 +45,8 @@
 		color: #414042;
 		text-align: center;
 		margin: 20px 0;
+	}
+	&__margin{
+		margin-bottom: 40px;
 	}
 }

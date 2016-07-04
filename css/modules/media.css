@@ -9,58 +9,128 @@
 		}
 	}*/
 }
-@media only screen and (max-width : 992px){
+@media only screen and (max-width : 360px){
+	.list{
+		&__content{
+			position: relative;
+		}
+		&__title{
+			margin: 0;
+			font-size: 21px;
+		}
+		&__lorem{
+			position: absolute;
+			left: -160px;
+			top: 90px;
+			font-size: 14px;
+			padding-bottom: 20px;
+			min-width: 300px;
+		}
+		&__item{
+			margin-bottom: 110px;
+		}
+		&__photo{
+			min-width: 85px;
+			min-height: 85px;
+			margin-left: 25px;
+			margin-right: 25px;
+			background-position: -55px 0;
+		}
+		&__list{
+			margin-top: 80px;
+		}
+	}
 	.header{
-		&__search{
+		&__content{
+			left: 0;
+			top: 15%;
+		}
+		&__title{
+			font-size: 36px;
+		}
+		&__lorem{
+			font-size: 16px;
+			margin-bottom: 40px;
+		}
+	}
+	.services{
+		&__title{
+			font-size: 26px;
+		}
+		&__paragraph{
+			font-size: 15px;
+		}
+		&__item{
+			font-size: 15px;
+		}
+		&__text{
+			font-size: 13px;
+		}
+	}
+}
+@media only screen and (max-width : 769px){
+	.list{
+		&__lorem{
+			font-size: 16px;
+		}
+		&__photo{
+			margin: 0 20px;
+		}
+	}
+}
+
+@media only screen and (max-width : 980px){
+	.header{
+		&__list{
 			display: none;
 		}
-		&__main{
-			height: auto;
-		}
-		&__item,&__list{
-			display: block;
-		}
-		&__logo{
-			float: none;
-			display: block;
+		&__burger{
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: flex-end;
+			height: 100px;
 		}
 		&__kasper{
-			display: flex;
-			justify-content: center;
+			justify-content: flex-start;
+		}
+		&__photo1, &__photo2, &__photo3{
+			background-position: -265px center;
+		}
+		&__content{
+			top: 12%;
 		}
 		&__menu{
 			display: block;
-			margin: auto;
 		}
-		&__list{
-			display: none;
-			padding: 0;
+		&__more{
+			margin: 0;
 		}
-	}
-	.callback{
-		&__left, &__right{
-			float: none;
+		&__wrap{
+			text-align: center;
 		}
-		&__input{
+		&__download{
+			margin-bottom: 15px;
+		}
+		&__stack{
+			justify-content: center;
+		}
+		&__item{
 			width: 100%;
-			&:first-child{
-				margin-bottom: 15px;
+			text-align: center;
+			margin: 0;
+		}
+		&__link{
+			&:hover, &:focus, &:active{
+				color: #fff;
+				padding-bottom: 8px;
+				padding-top: 0;
+				border-bottom: 2px solid #fff;
+				border-top: 0;
 			}
-		}
-		&__textarea{
-			margin-top: 15px;
-		}
-		&__center{
-			margin-right: 10px;
-			margin-left: 10px;
-		}
-	}
-	.portfolio{
-		&__hover{
-			display: none;
-		}
-		&__po1, &__po2, &__po3, &__po4, &__po5, &__po6{
-			background-position: 50%;
 		}
 	}
 }
